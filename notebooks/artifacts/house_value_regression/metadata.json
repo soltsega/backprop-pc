@@ -1,0 +1,65 @@
+{
+  "target": "median_house_value",
+  "target_mean": 207194.6937378876,
+  "target_std": 115619.12522543264,
+  "input_dim": 13,
+  "seed": 42,
+  "predictive_coding_inference_steps": 10,
+  "feature_names": [
+    "numeric__longitude",
+    "numeric__latitude",
+    "numeric__housing_median_age",
+    "numeric__total_rooms",
+    "numeric__total_bedrooms",
+    "numeric__population",
+    "numeric__households",
+    "numeric__median_income",
+    "categorical__ocean_proximity_<1H OCEAN",
+    "categorical__ocean_proximity_INLAND",
+    "categorical__ocean_proximity_ISLAND",
+    "categorical__ocean_proximity_NEAR BAY",
+    "categorical__ocean_proximity_NEAR OCEAN"
+  ],
+  "inference_step_validation": [
+    {
+      "inference_steps": 1,
+      "validation_mae": 44035.881891527046,
+      "validation_rmse": 62067.04245547963,
+      "validation_r2": 0.7213771777681288,
+      "training_seconds": 7.464241253999717
+    },
+    {
+      "inference_steps": 3,
+      "validation_mae": 43886.42050931066,
+      "validation_rmse": 61930.24489865409,
+      "validation_r2": 0.7226040098083345,
+      "training_seconds": 6.54669537800055
+    },
+    {
+      "inference_steps": 5,
+      "validation_mae": 43780.77022355672,
+      "validation_rmse": 61862.09704828745,
+      "validation_r2": 0.7232141653000155,
+      "training_seconds": 7.246080274999258
+    },
+    {
+      "inference_steps": 10,
+      "validation_mae": 43345.110633452765,
+      "validation_rmse": 61578.92854281959,
+      "validation_r2": 0.725742293273997,
+      "training_seconds": 18.21126631900006
+    }
+  ],
+  "metrics": {
+    "backprop": {
+      "MAE": 38755.09988379663,
+      "RMSE": 57255.4619039927,
+      "R2": 0.7498347483668635
+    },
+    "predictive_coding": {
+      "MAE": 39903.80101025012,
+      "RMSE": 57636.652722911276,
+      "R2": 0.7464925994660899
+    }
+  }
+}
