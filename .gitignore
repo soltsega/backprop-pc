@@ -1,0 +1,6 @@
+notebooks/artifacts/house_value_regression/predictive_coding_layer_energies.csv
+notebooks/artifacts/house_value_regression/predictive_coding_model.pt
+notebooks/artifacts/house_value_regression/preprocessor.pkl
+notebooks/artifacts/house_value_regression/test_predictions.csv
+notebooks/artifacts/house_value_regression/training_history.csv
+notebooks/backprop_vs_predictive_coding_pytorch.ipynb
