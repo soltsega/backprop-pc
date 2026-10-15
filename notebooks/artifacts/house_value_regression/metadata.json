@@ -26,28 +26,28 @@
       "validation_mae": 44035.881891527046,
       "validation_rmse": 62067.04245547963,
       "validation_r2": 0.7213771777681288,
-      "training_seconds": 7.464241253999717
+      "training_seconds": 6.7710350180000205
     },
     {
       "inference_steps": 3,
       "validation_mae": 43886.42050931066,
       "validation_rmse": 61930.24489865409,
       "validation_r2": 0.7226040098083345,
-      "training_seconds": 6.54669537800055
+      "training_seconds": 8.843322181000076
     },
     {
       "inference_steps": 5,
       "validation_mae": 43780.77022355672,
       "validation_rmse": 61862.09704828745,
       "validation_r2": 0.7232141653000155,
-      "training_seconds": 7.246080274999258
+      "training_seconds": 11.156888827999865
     },
     {
       "inference_steps": 10,
       "validation_mae": 43345.110633452765,
       "validation_rmse": 61578.92854281959,
       "validation_r2": 0.725742293273997,
-      "training_seconds": 18.21126631900006
+      "training_seconds": 15.631219186999942
     }
   ],
   "metrics": {
